@@ -27,6 +27,9 @@ app.get('/', (req, res) => {
   res.sendFile('./build/index.html');
 });
 
+app.get('/chat', (req, res) => {
+    res.sendFile('./build/index.html');
+  });
 //app.get('/', (req, res) => res.status(200).send('hello world'));
 
 // DB config
